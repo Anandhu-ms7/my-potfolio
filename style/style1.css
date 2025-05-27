@@ -325,30 +325,22 @@ body {
   gap: 30px;
 }
 
+
 .footer-left h3 {
   font-size: 24px;
   color: #00bcd4;
   margin: 0;
+  margin-left: 440px;
 }
 
 .footer-left p {
   font-size: 14px;
   margin-top: 8px;
+  margin-left: 415px;
   color: #ccc;
 }
 
-.footer-right h4 {
-  font-size: 18px;
-  margin-bottom: 12px;
-  color: #00bcd4;
-}
 
-.plain-link {
-    text-decoration: none; /* removes underline */
-    color: inherit;         /* inherits text color from parent */
-    font-size: inherit;     /* inherits font size */
-    font-weight: normal;    /* optional: ensures it's not bold */
-}
 
 
 /* ===== RESPONSIVE FOR MOBILE DEVICES ===== */
@@ -411,10 +403,11 @@ body {
   .education-items {
     width: 95%;
   }
-
+ 
   #footer-container {
     flex-direction: column;
     align-items: center;
+    
   }
 
   .footer-left, .footer-right {
